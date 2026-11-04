@@ -1,0 +1,773 @@
+([('MediaHub.exe',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\build\\MediaHub\\MediaHub.exe',
+   'EXECUTABLE'),
+  ('PIL\\_avif.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\PIL\\_avif.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\PIL\\_imaging.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\PIL\\_imagingcms.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingft.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\PIL\\_imagingft.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\PIL\\_imagingtk.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\PIL\\_webp.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('_asyncio.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_pillow_heif.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\_pillow_heif.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('_zoneinfo.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_zoneinfo.pyd',
+   'EXTENSION'),
+  ('_zstd.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_zstd.pyd',
+   'EXTENSION'),
+  ('base_library.zip',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\build\\MediaHub\\base_library.zip',
+   'DATA'),
+  ('click-8.5.0.dist-info\\INSTALLER',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('click-8.5.0.dist-info\\METADATA',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\METADATA',
+   'DATA'),
+  ('click-8.5.0.dist-info\\RECORD',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\RECORD',
+   'DATA'),
+  ('click-8.5.0.dist-info\\WHEEL',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\WHEEL',
+   'DATA'),
+  ('click-8.5.0.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('httptools\\parser\\parser.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\httptools\\parser\\parser.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('httptools\\parser\\url_parser.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\httptools\\parser\\url_parser.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libde265-0-da04b6b2448c39c0b7f218769dedb2f1.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\libde265-0-da04b6b2448c39c0b7f218769dedb2f1.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('libgcc_s_seh-1-60817ff87b1fa8e35c12cd1a333734a3.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\libgcc_s_seh-1-60817ff87b1fa8e35c12cd1a333734a3.dll',
+   'BINARY'),
+  ('libheif-18c57b017b404cb1ef96dee8a6eef027.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\libheif-18c57b017b404cb1ef96dee8a6eef027.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libstdc++-6-e4d43a335d57132a6ec3004cece76b4f.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\libstdc++-6-e4d43a335d57132a6ec3004cece76b4f.dll',
+   'BINARY'),
+  ('libwinpthread-1-71c5c74678606753e0a2f79ceb8c68f9.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\libwinpthread-1-71c5c74678606753e0a2f79ceb8c68f9.dll',
+   'BINARY'),
+  ('libx265-217-276e7d75772a32bd086b54d54e01fd11.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\libx265-217-276e7d75772a32bd086b54d54e01fd11.dll',
+   'BINARY'),
+  ('numpy-2.5.4.dist-info\\DELVEWHEEL',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\DELVEWHEEL',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\INSTALLER',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\INSTALLER',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\METADATA',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\METADATA',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\RECORD',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\RECORD',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\REQUESTED',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\REQUESTED',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\WHEEL',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\WHEEL',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\entry_points.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\entry_points.txt',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\include\\numpy\\libdivide\\LICENSE.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\include\\numpy\\libdivide\\LICENSE.txt',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\common\\pythoncapi-compat\\COPYING',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\common\\pythoncapi-compat\\COPYING',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\highway\\LICENSE',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\highway\\LICENSE',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\multiarray\\dragon4_LICENSE.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\multiarray\\dragon4_LICENSE.txt',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\npysort\\x86-simd-sort\\LICENSE.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\npysort\\x86-simd-sort\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\umath\\svml\\LICENSE',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\_core\\src\\umath\\svml\\LICENSE',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\fft\\pocketfft\\LICENSE.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\fft\\pocketfft\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\linalg\\lapack_lite\\LICENSE.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\linalg\\lapack_lite\\LICENSE.txt',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\ma\\LICENSE',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\ma\\LICENSE',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\random\\LICENSE.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\random\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\distributions\\LICENSE.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\distributions\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\mt19937\\LICENSE.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\mt19937\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\pcg64\\LICENSE.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\pcg64\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\philox\\LICENSE.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\philox\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\sfc64\\LICENSE.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\sfc64\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\splitmix64\\LICENSE.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy-2.5.4.dist-info\\licenses\\numpy\\random\\src\\splitmix64\\LICENSE.md',
+   'DATA'),
+  ('numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll',
+   'BINARY'),
+  ('numpy.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll',
+   'BINARY'),
+  ('numpy\\_core\\_multiarray_tests.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\_core\\_multiarray_tests.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\_core\\_multiarray_umath.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\fft\\_pocketfft_umath.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft_umath.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\_umath_linalg.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_bounded_integers.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_common.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\random\\_common.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_generator.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\random\\_generator.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_mt19937.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\random\\_mt19937.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_pcg64.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\random\\_pcg64.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_philox.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\random\\_philox.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_sfc64.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\random\\_sfc64.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\bit_generator.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\random\\bit_generator.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\mtrand.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\numpy\\random\\mtrand.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('opentelemetry_api-1.45.2.dist-info\\INSTALLER',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\opentelemetry_api-1.45.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('opentelemetry_api-1.45.2.dist-info\\METADATA',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\opentelemetry_api-1.45.2.dist-info\\METADATA',
+   'DATA'),
+  ('opentelemetry_api-1.45.2.dist-info\\RECORD',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\opentelemetry_api-1.45.2.dist-info\\RECORD',
+   'DATA'),
+  ('opentelemetry_api-1.45.2.dist-info\\WHEEL',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\opentelemetry_api-1.45.2.dist-info\\WHEEL',
+   'DATA'),
+  ('opentelemetry_api-1.45.2.dist-info\\entry_points.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\opentelemetry_api-1.45.2.dist-info\\entry_points.txt',
+   'DATA'),
+  ('opentelemetry_api-1.45.2.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\opentelemetry_api-1.45.2.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\DELVEWHEEL',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\DELVEWHEEL',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\INSTALLER',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\METADATA',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\METADATA',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\RECORD',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\RECORD',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\REQUESTED',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\WHEEL',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\WHEEL',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\licenses\\LICENSES_bundled.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\licenses\\LICENSES_bundled.txt',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\top_level.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('pillow_heif-1.8.1.dist-info\\zip-safe',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif-1.8.1.dist-info\\zip-safe',
+   'DATA'),
+  ('pillow_heif\\HeifImagePlugin.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\HeifImagePlugin.py',
+   'DATA'),
+  ('pillow_heif\\__init__.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\__init__.py',
+   'DATA'),
+  ('pillow_heif\\_deffered_error.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\_deffered_error.py',
+   'DATA'),
+  ('pillow_heif\\_lib_info.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\_lib_info.py',
+   'DATA'),
+  ('pillow_heif\\_version.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\_version.py',
+   'DATA'),
+  ('pillow_heif\\as_plugin.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\as_plugin.py',
+   'DATA'),
+  ('pillow_heif\\constants.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\constants.py',
+   'DATA'),
+  ('pillow_heif\\heif.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\heif.py',
+   'DATA'),
+  ('pillow_heif\\misc.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\misc.py',
+   'DATA'),
+  ('pillow_heif\\options.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\options.py',
+   'DATA'),
+  ('pillow_heif\\py.typed',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pillow_heif\\py.typed',
+   'DATA'),
+  ('pydantic-2.14.2.dist-info\\INSTALLER',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pydantic-2.14.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('pydantic-2.14.2.dist-info\\METADATA',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pydantic-2.14.2.dist-info\\METADATA',
+   'DATA'),
+  ('pydantic-2.14.2.dist-info\\RECORD',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pydantic-2.14.2.dist-info\\RECORD',
+   'DATA'),
+  ('pydantic-2.14.2.dist-info\\WHEEL',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pydantic-2.14.2.dist-info\\WHEEL',
+   'DATA'),
+  ('pydantic-2.14.2.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pydantic-2.14.2.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('pydantic_core\\_pydantic_core.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('pypdfium2-5.14.0.dist-info\\INSTALLER',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\METADATA',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\METADATA',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\RECORD',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\RECORD',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\REQUESTED',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\WHEEL',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\WHEEL',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\entry_points.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\LICENSES\\Apache-2.0.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\LICENSES\\Apache-2.0.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\LICENSES\\BSD-3-Clause.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\LICENSES\\BSD-3-Clause.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\LICENSES\\CC-BY-4.0.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\LICENSES\\CC-BY-4.0.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\abseil.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\abseil.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\agg23.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\agg23.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\fast_float.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\fast_float.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\freetype.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\freetype.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\icu.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\icu.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\lcms.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\lcms.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\libjpeg_turbo.ijg',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\libjpeg_turbo.ijg',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\libjpeg_turbo.md',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\libjpeg_turbo.md',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\libopenjpeg.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\libopenjpeg.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\libpng.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\libpng.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\llvm-libc.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\llvm-libc.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\pdfium-binaries.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\pdfium-binaries.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\pdfium.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\pdfium.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\simdutf.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\simdutf.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\zlib.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\licenses\\data\\windows_x64\\BUILD_LICENSES\\zlib.txt',
+   'DATA'),
+  ('pypdfium2-5.14.0.dist-info\\top_level.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2-5.14.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('pypdfium2\\__init__.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\__init__.py',
+   'DATA'),
+  ('pypdfium2\\__main__.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\__main__.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\__init__.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\__init__.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\attachment.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\attachment.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\bitmap.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\bitmap.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\document.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\document.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\matrix.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\matrix.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\misc.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\misc.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\page.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\page.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\pageobjects.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\pageobjects.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\sysfontinfo.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\sysfontinfo.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\textpage.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\textpage.py',
+   'DATA'),
+  ('pypdfium2\\_helpers\\unsupported.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_helpers\\unsupported.py',
+   'DATA'),
+  ('pypdfium2\\_lazy.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_lazy.py',
+   'DATA'),
+  ('pypdfium2\\_library_scope.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\_library_scope.py',
+   'DATA'),
+  ('pypdfium2\\internal\\__init__.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\internal\\__init__.py',
+   'DATA'),
+  ('pypdfium2\\internal\\bases.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\internal\\bases.py',
+   'DATA'),
+  ('pypdfium2\\internal\\consts.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\internal\\consts.py',
+   'DATA'),
+  ('pypdfium2\\internal\\utils.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\internal\\utils.py',
+   'DATA'),
+  ('pypdfium2\\raw.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\raw.py',
+   'DATA'),
+  ('pypdfium2\\version.json',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\version.json',
+   'DATA'),
+  ('pypdfium2\\version.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2\\version.py',
+   'DATA'),
+  ('pypdfium2_raw\\__init__.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2_raw\\__init__.py',
+   'DATA'),
+  ('pypdfium2_raw\\bindings.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2_raw\\bindings.py',
+   'DATA'),
+  ('pypdfium2_raw\\pdfium.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2_raw\\pdfium.dll',
+   'BINARY'),
+  ('pypdfium2_raw\\version.json',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2_raw\\version.json',
+   'DATA'),
+  ('pypdfium2_raw\\version.py',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\pypdfium2_raw\\version.py',
+   'DATA'),
+  ('python3.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\python3.dll',
+   'BINARY'),
+  ('python314.dll',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('vendor\\ffmpeg\\ffmpeg.exe',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\vendor\\ffmpeg\\ffmpeg.exe',
+   'BINARY'),
+  ('watchfiles\\_rust_notify.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\watchfiles\\_rust_notify.pyd',
+   'EXTENSION'),
+  ('web\\app.js',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\web\\app.js',
+   'DATA'),
+  ('web\\demo-image.png',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\web\\demo-image.png',
+   'DATA'),
+  ('web\\i18n.js',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\web\\i18n.js',
+   'DATA'),
+  ('web\\icon-192.png',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\web\\icon-192.png',
+   'DATA'),
+  ('web\\icon-512.png',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\web\\icon-512.png',
+   'DATA'),
+  ('web\\index.html',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\web\\index.html',
+   'DATA'),
+  ('web\\manifest.webmanifest',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\web\\manifest.webmanifest',
+   'DATA'),
+  ('web\\styles.css',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\web\\styles.css',
+   'DATA'),
+  ('web\\sw.js',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\web\\sw.js',
+   'DATA'),
+  ('websockets-17.4.dist-info\\INSTALLER',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\websockets-17.4.dist-info\\INSTALLER',
+   'DATA'),
+  ('websockets-17.4.dist-info\\METADATA',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\websockets-17.4.dist-info\\METADATA',
+   'DATA'),
+  ('websockets-17.4.dist-info\\RECORD',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\websockets-17.4.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-17.4.dist-info\\WHEEL',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\websockets-17.4.dist-info\\WHEEL',
+   'DATA'),
+  ('websockets-17.4.dist-info\\entry_points.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\websockets-17.4.dist-info\\entry_points.txt',
+   'DATA'),
+  ('websockets-17.4.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\websockets-17.4.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('websockets-17.4.dist-info\\top_level.txt',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\websockets-17.4.dist-info\\top_level.txt',
+   'DATA'),
+  ('websockets\\speedups.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\websockets\\speedups.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('yaml\\_yaml.cp314-win_amd64.pyd',
+   'C:\\Users\\Сергей '
+   'Уткин\\Documents\\deepseek-harness\\default-workspace\\mediahub\\.venv\\Lib\\site-packages\\yaml\\_yaml.cp314-win_amd64.pyd',
+   'EXTENSION')],)

@@ -1,0 +1,8 @@
+INFO:     Started server process [2084]
+INFO:     Waiting for application startup.
+2026-10-25 05:01:16,807 INFO    mediahub.web: Хранилище: C:\Users\Сергей Уткин\Documents\deepseek-harness\default-workspace\mediahub\storage\tasks
+2026-10-25 05:01:16,809 INFO    mediahub.web: Локальный адрес для QR-ссылок: http://192.168.0.176:8766
+2026-10-25 05:01:16,811 INFO    mediahub.web: FFmpeg: ffmpeg version 2024-12-09-git-d21134313f-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+2026-10-25 05:01:16,814 INFO    mediahub.storage: Сборщик мусора запущен: TTL=1800 с, интервал опроса=300 с
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8766 (Press CTRL+C to quit)

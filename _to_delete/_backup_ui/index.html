@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff">
+  <title>MediaHub</title>
+  <link rel="manifest" href="/static/manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="/static/styles.css?v=10">
+</head>
+<body>
+<main class="page">
+
+  <header class="top">
+    <h1 class="brand">MediaHub</h1>
+    <span class="badge dot" id="status-badge" title="подключение…"></span>
+  </header>
+
+  <p class="lead">Изображения, PDF, видео и аудио – локально, без облака.</p>
+
+  <div class="dropzone" id="dropzone" tabindex="0" role="button"
+       aria-label="Перетащите файлы сюда или выберите на диске">
+    <span class="dropzone-icon" aria-hidden="true">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 16V5m0 0L7.5 9.5M12 5l4.5 4.5"/>
+        <path d="M4.5 15v3.5A2.5 2.5 0 0 0 7 21h10a2.5 2.5 0 0 0 2.5-2.5V15"/>
+      </svg>
+    </span>
+    <p class="dropzone-title" id="dropzone-title">Перетащите файлы сюда</p>
+    <p class="dropzone-hint">или <button type="button" class="link" id="browse-button">выберите на диске</button></p>
+    <p class="dropzone-paste">⌘/Ctrl + V – вставить из буфера · <button type="button" class="link" id="send-button">с телефона</button></p>
+    <input type="file" id="file-input" multiple>
+  </div>
+
+  <ol class="steps hidden" id="steps"></ol>
+  <div class="notice" id="notice" role="status" aria-live="polite"></div>
+  <button type="button" class="link centered hidden" id="retry-button">Повторить</button>
+
+  <section class="group hidden" id="config-card">
+    <div class="stack" id="file-list"></div>
+    <p class="files-summary" id="files-summary"></p>
+    <div id="options"></div>
+    <button class="primary" id="convert-button">Обработать</button>
+    <button type="button" class="link centered" id="clear-button">Очистить</button>
+    <div class="progress-wrap" id="progress-wrap">
+      <div class="progress-track"><div class="progress-bar" id="progress-bar"></div></div>
+      <p class="progress-text" id="progress-text" aria-live="polite">Подготовка…</p>
+      <button type="button" class="link centered" id="cancel-button">Отменить</button>
+    </div>
+  </section>
+
+  <section class="group hidden" id="result-card">
+    <p class="done" id="done">Готово</p>
+    <div class="metrics" id="metrics" aria-live="polite"></div>
+    <div class="downloads" id="downloads"></div>
+    <div class="warnings" id="warnings"></div>
+    <p class="result-meta" id="result-meta"></p>
+    <button class="primary" id="download-button">Скачать</button>
+    <button type="button" class="link centered" id="copy-link">Скопировать ссылку</button>
+    <button type="button" class="link centered" id="qr-button">Передать на телефон</button>
+    <button type="button" class="link centered" id="reset-button">Обработать ещё</button>
+  </section>
+
+  <section class="group hidden" id="queue">
+    <h2 class="queue-title">Очередь</h2>
+    <div class="stack" id="queue-list"></div>
+  </section>
+  <section class="faq">
+    <h2 class="faq-title">Вопросы</h2>
+
+    <details>
+      <summary>Файлы правда не уходят в интернет?</summary>
+      <p>Да. Конвертация идёт на этом компьютере, файлы лежат в локальной папке сессии и удаляются через 30 минут.</p>
+    </details>
+
+    <details>
+      <summary>Что нужно для видео и аудио?</summary>
+      <p>FFmpeg. Если его нет, кнопки видео отключатся и появится подсказка – изображения и PDF работают всегда.</p>
+    </details>
+
+    <details>
+      <summary>Как передать результат на телефон?</summary>
+      <p>Нажмите «Передать на телефон»: появится QR-код. Телефон должен быть в той же сети Wi-Fi.</p>
+    </details>
+
+    <details>
+      <summary>Сколько файлов можно обработать сразу?</summary>
+      <p>До 25 файлов в одной сессии, общий размер – до 200 МБ.</p>
+    </details>
+
+    <details>
+      <summary>Что удаляется и когда?</summary>
+      <p>Вся сессия: исходники, результаты и записи о задачах. Срок жизни – 30 минут с последнего обращения.</p>
+    </details>
+  </section></main>
+
+<div class="modal" id="qr-modal" role="dialog" aria-modal="true" aria-labelledby="qr-title">
+  <div class="modal-box">
+    <h2 id="qr-title">На телефон</h2>
+    <p>Подключитесь к той же сети Wi-Fi и наведите камеру на код.</p>
+    <div class="qr-frame"><img id="qr-image" alt="QR-код для скачивания"></div>
+    <p class="qr-url" id="qr-url"></p>
+    <button type="button" class="link centered" id="qr-close">Закрыть</button>
+  </div>
+</div>
+
+<script src="/static/app.js?v=10"></script>
+</body>
+</html>
