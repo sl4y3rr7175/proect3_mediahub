@@ -1,0 +1,17 @@
+# Текстовые файлы храним с LF, сценарии Windows – с CRLF (иначе cmd ломается).
+* text=auto
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.iss text eol=crlf
+*.sh  text eol=lf
+
+# Двоичные
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.mp4 binary
+*.wav binary
+*.heic binary

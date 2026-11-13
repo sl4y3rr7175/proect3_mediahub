@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mediahub"
-version = "0.1.0"
+version = "0.4.0"
 description = "Автономный локальный медиа-хаб и конвертер: изображения, PDF, видео и аудио"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -15,6 +15,7 @@ dependencies = [
     "python-multipart>=0.0.9",
     "Pillow>=10.3",
     "pypdf>=5.0",
+    "cryptography>=42",
     "pypdfium2>=4.30",
     "qrcode>=7.4",
 ]
