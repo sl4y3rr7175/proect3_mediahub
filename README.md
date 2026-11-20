@@ -61,7 +61,7 @@ python tools/bootstrap.py --target # старый способ: пакеты в 
 ```sh
 git log --oneline              # история
 git diff                       # что изменилось с последнего сохранения
-git checkout -- web/app.js     # вернуть файл к сохранённой версии
+git checkout -- web/js/options.js     # вернуть файл к сохранённой версии
 git add -A && git commit -m "что сделано"
 ```
 
@@ -167,7 +167,28 @@ systemctl status mediahub && journalctl -u mediahub -f
 
 ---
 
+### Распознавание текста (OCR)
+
+Действие «Текст» для PDF и переключатель «Распознать текст» для фотографий работают через
+Tesseract. Установка на Windows: `winget install UB-Mannheim.TesseractOCR` (в установщике
+отметьте русский язык), затем перезапустите MediaHub. Свой путь – `MEDIAHUB_TESSERACT`.
+Без Tesseract остальное приложение работает как обычно.
+
+### Выпуск версии
+
+```
+git tag v0.6.0
+git push origin v0.6.0
+```
+
+GitHub Actions (`.github/workflows/release.yml`) прогонит тесты, соберёт приложение с FFmpeg
+и установщик, и приложит `MediaHub-Setup-0.6.0.exe` к релизу. Приложение раз в сутки
+проверяет последний релиз и показывает ссылку «Доступна версия…» (только для публичного
+репозитория; выключается `MEDIAHUB_UPDATE_CHECK=0`, репозиторий – `MEDIAHUB_UPDATE_REPO`).
+
 ### Горячая папка
+
+Включается на странице в разделе «Горячая папка» или из меню значка в трее.
 
 Проще всего включить из меню значка в трее: «Горячая папка (файлы обрабатываются сами)» –
 папка `Пользователь\MediaHub\Входящие` создаётся сразу, выбор запоминается. Вручную:
@@ -224,6 +245,10 @@ MEDIAHUB_WATCH_DIR=C:\Users\you\MediaHub-Inbox
 | `format` | `jpg` · `png` · `webp` (изображения и рендер PDF) |
 | `quality` | 1–100 (изображения), 10–95 (сжатие PDF) |
 | `dpi` | `150` · `200` (PDF → картинки) |
+| `resize_mode` · `name_template` | картинки: `width`/`long`/`percent` и шаблон имени с `{name}`, `{n}`, `{date}` |
+| `rotate` · `speed` · `mute` | действие `compress` (видео): 0/90/180/270, 0.5/1/1.5/2, без звука |
+| `ocr` · `lang` | распознавание текста: `ocr=true` для картинок в PDF, язык Tesseract (`rus+eng`) |
+| `crf` · `width` | действие `compress` (видео): качество 18–35 и наибольшая ширина 160–3840 px |
 | `number_style` · `number_pos` · `number_start` | действие `numbers`: `n`/`n_of_total`, `left`/`center`/`right`, первый номер |
 | `password` | действия `protect` и `unlock`; пароль не записывается на диск |
 | `bitrate` | `128` · `192` · `256` · `320` kbps (MP3) |
@@ -376,7 +401,7 @@ python tools/selftest.py --url http://127.0.0.1:8765 --deep   # то же, но 
 node verify/ui_logic_test.mjs
 ```
 
-Поднимает минимальный DOM-шим, загружает настоящий `web/app.js` и проверяет
+Поднимает минимальный DOM-шим, загружает настоящие `web/js/*.js` и проверяет
 инспектор типов, блокировку смешения, лимиты, построение панели настроек,
 ползунок качества и сборку параметров запроса для всех режимов.
 
@@ -448,7 +473,7 @@ mediahub/
 │       ├── image.py        Pillow: форматы, альфа, EXIF, качество
 │       ├── pdf.py          pypdf: склейка, сжатие, рендер страниц
 │       └── media.py        FFmpeg: MP3, GIF, H.264, таймауты
-├── web/                    SPA-клиент (index.html, styles.css, app.js, demo-image.png)
+├── web/                    SPA-клиент (index.html, styles.css, js/*.js, demo-image.png)
 ├── tools/                  install_ffmpeg.py, bootstrap.py, make_fixtures.py,
 │                           make_demo_asset.py, selftest.py
 ├── verify/                 ui_logic_test.mjs, ui_driver.py, demo_shots.py,
@@ -488,7 +513,7 @@ mediahub/
   закреплено отдельным тестом. Если библиотека не установлена, файл отклоняется
   с кодом 422 и понятным пояснением.
 * Интерфейс — минимальный SPA без сборщика: компонентная структура реализована
-  функциями отрисовки в `web/app.js`. Переход на фреймворк не меняет контракт API.
+  функциями отрисовки в `web/js/`. Переход на фреймворк не меняет контракт API.
 
 ## Что умеет (кратко)
 
@@ -503,7 +528,7 @@ mediahub/
 
 **Проще всего:** дважды щёлкнуть `build-windows.cmd` (после первого запуска
 `start.cmd`). Он поставит инструменты, соберёт приложение и установщик
-`installer/Output/MediaHub-Setup-0.4.0.exe`.
+`installer/Output/MediaHub-Setup-0.6.0.exe`.
 
 ### Пункт «Отправить → MediaHub»
 
@@ -539,3 +564,16 @@ python tools/build_exe.py        :: dist\MediaHub\MediaHub.exe
 ## Лицензия
 
 MIT – см. [LICENSE](LICENSE).
+## Документы Office и текстовые файлы
+
+Перетащите документ Word, Excel, PowerPoint, Visio, Publisher или текстовый файл – появятся действия:
+
+- **В PDF** – точное оформление даёт Microsoft Office (если установлен) или LibreOffice
+  (`winget install TheDocumentFoundation.LibreOffice`, потом перезапустить MediaHub). Без них получится
+  простой PDF из текста документа, без картинок и шрифтов – MediaHub предупредит об этом.
+  Несколько документов можно склеить в один PDF.
+- **В текст** – файл `.txt` с текстом документа. Работает без дополнительных программ для docx, xlsx, pptx,
+  odt, ods, odp, rtf, csv и txt. Старые бинарные форматы (doc, xls, ppt) требуют Office или LibreOffice.
+
+Переменные: `MEDIAHUB_LIBREOFFICE` – путь к `soffice`, `MEDIAHUB_FONT` – шрифт для простого PDF.
+Документы открываются без макросов: Office запускается с отключённой автоматизацией безопасности.

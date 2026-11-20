@@ -87,7 +87,7 @@ set "PYTHONPATH=%ROOT%"
 set "PYTHONUTF8=1"
 cd /d "%ROOT%"
 
-"%VPY%" -c "import fastapi, uvicorn, pypdf, PIL, qrcode" >> "%LOG%" 2>&1
+"%VPY%" -c "import fastapi, uvicorn, pypdf, PIL, qrcode, cryptography" >> "%LOG%" 2>&1
 if errorlevel 1 (
   echo [MediaHub] Окружение повреждено – переустанавливаю зависимости...
   "%VPY%" -m pip install --disable-pip-version-check -r "%ROOT%\requirements.txt" >> "%LOG%" 2>&1 || goto :failed
