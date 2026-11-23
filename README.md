@@ -177,12 +177,12 @@ Tesseract. Установка на Windows: `winget install UB-Mannheim.Tesserac
 ### Выпуск версии
 
 ```
-git tag v0.6.0
-git push origin v0.6.0
+git tag v0.8.0
+git push origin v0.8.0
 ```
 
 GitHub Actions (`.github/workflows/release.yml`) прогонит тесты, соберёт приложение с FFmpeg
-и установщик, и приложит `MediaHub-Setup-0.6.0.exe` к релизу. Приложение раз в сутки
+и установщик, и приложит `MediaHub-Setup-0.8.0.exe` к релизу. Приложение раз в сутки
 проверяет последний релиз и показывает ссылку «Доступна версия…» (только для публичного
 репозитория; выключается `MEDIAHUB_UPDATE_CHECK=0`, репозиторий – `MEDIAHUB_UPDATE_REPO`).
 
@@ -201,7 +201,8 @@ MEDIAHUB_WATCH_DIR=C:\Users\you\MediaHub-Inbox
 ```
 
 После перезапуска всё, что вы кладёте в эту папку, обрабатывается само: картинки → WEBP
-(`MEDIAHUB_WATCH_FORMAT`, `MEDIAHUB_WATCH_QUALITY`), PDF → сжатый PDF. Результаты лежат в
+(`MEDIAHUB_WATCH_FORMAT`, `MEDIAHUB_WATCH_QUALITY`), PDF → сжатый PDF, документы Word/Excel/PowerPoint →
+PDF (`MEDIAHUB_WATCH_DOC=text` – вместо этого `.txt` с текстом). Результаты лежат в
 подпапке «Готово», обработанные исходники – в «Обработано», сбои – в «Ошибки» (рядом `.txt`
 с причиной). Файл берётся в работу, когда копирование закончилось.
 
@@ -528,7 +529,7 @@ mediahub/
 
 **Проще всего:** дважды щёлкнуть `build-windows.cmd` (после первого запуска
 `start.cmd`). Он поставит инструменты, соберёт приложение и установщик
-`installer/Output/MediaHub-Setup-0.6.0.exe`.
+`installer/Output/MediaHub-Setup-0.8.0.exe`.
 
 ### Пункт «Отправить → MediaHub»
 
@@ -564,16 +565,31 @@ python tools/build_exe.py        :: dist\MediaHub\MediaHub.exe
 ## Лицензия
 
 MIT – см. [LICENSE](LICENSE).
+### PDF → текст
+
+У PDF есть действие **«В .txt»**: текст достаётся из файла, а страницы-сканы распознаются Tesseract-ом
+(см. раздел про распознавание). Без Tesseract сканы не распознаются – MediaHub скажет об этом.
+
+### Картинка → текст
+
+В выборе формата картинки есть кнопка **«TXT»** (появляется, когда установлен Tesseract): текст с фотографии,
+скриншота или скана распознаётся в файл `.txt`. Несколько картинок дают несколько файлов в одном архиве.
+
 ## Документы Office и текстовые файлы
 
 Перетащите документ Word, Excel, PowerPoint, Visio, Publisher или текстовый файл – появятся действия:
 
+- **Другой формат** – пересохранить документ: Word → DOCX/ODT/RTF/HTML, Excel → XLSX/ODS/CSV/HTML,
+  PowerPoint → PPTX/ODP. Делает LibreOffice. Из командной строки: `python -m mediahub convert отчёт.doc -t docx`.
 - **В PDF** – точное оформление даёт Microsoft Office (если установлен) или LibreOffice
   (`winget install TheDocumentFoundation.LibreOffice`, потом перезапустить MediaHub). Без них получится
   простой PDF из текста документа, без картинок и шрифтов – MediaHub предупредит об этом.
   Несколько документов можно склеить в один PDF.
+- **В картинки** – страницы документа в PNG, одним архивом.
 - **В текст** – файл `.txt` с текстом документа. Работает без дополнительных программ для docx, xlsx, pptx,
   odt, ods, odp, rtf, csv и txt. Старые бинарные форматы (doc, xls, ppt) требуют Office или LibreOffice.
+
+Из командной строки: `python -m mediahub convert отчёт.docx` (PDF), `-t txt` (текст), `--merge` (один PDF из нескольких).
 
 Переменные: `MEDIAHUB_LIBREOFFICE` – путь к `soffice`, `MEDIAHUB_FONT` – шрифт для простого PDF.
 Документы открываются без макросов: Office запускается с отключённой автоматизацией безопасности.
